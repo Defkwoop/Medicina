@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 30px;
+    
+  }
+  
+
+  input[type=submit]:focus{
+      border-color: purple;
+      color: red;
+  }
+
+  .col-25{
+      float: left;
+      width: 40%;
+      margin-top: 6px;
+  }
+
+  @media screen and (max-width: 600px) {
+      .col-25{
+          width: 100%;
+      }
+  }
+
+  form{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
